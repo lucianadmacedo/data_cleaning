@@ -36,6 +36,5 @@ def delete_lines(file_pattern):
         print(f"Lines modified in {filepath}.")
 
 
-# Example usage with wildcard file pattern
-file_pattern = '/home/user/*.txt'  # Replace with your wildcard file pattern
+file_pattern = '/home/user/*.txt' 
 delete_lines(file_pattern)
